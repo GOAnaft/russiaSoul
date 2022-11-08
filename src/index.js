@@ -2,7 +2,7 @@ import * as THREE from "three";
 import * as ZapparThree from "@zappar/zappar-threejs";
 import "./style.css";
 
-const targetImagePath = new URL("./example-tracking-image.zpt", import.meta.url).href;
+const targetImagePath = new URL("./target.zpt", import.meta.url).href;
 
 // ZapparThree provides a LoadingManager that shows a progress bar while
 // the assets are downloaded
